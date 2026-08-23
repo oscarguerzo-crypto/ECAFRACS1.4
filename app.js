@@ -814,12 +814,84 @@ content:`
 `
 },
 
-"Reactivation (Inactive Account)":{
-title:"Billing - Reactivation (Inactive Account) — No Payment Made Yet",
+"Reactivation (Inactive Account) — Loop Device":{
+title:"Billing - Reactivation (Inactive Account) — No Payment Made Yet — Loop Device",
 source:"Slide 38",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
+
+<ul>
+<li>Customer's account is inactive due to non-payment</li>
+<li>Customer wants to reinstate account</li>
+<li>Advise the customer to pay the outstanding balance</li>
+<li>If updating card details is needed, advise the customer to do so</li>
+</ul>
+
+<h3>What to do next</h3>
+
+<p>To reinstate the service, the customer won't need to purchase a new device, as their existing Loop device is already linked to their account. Instead, have them do the following:</p>
+
+<div class="warning-box">
+<p>Please be informed that the LoopDL App is pre-installed to your Loop Device — please navigate and follow the following steps:</p>
+<ol>
+<li>Connect your LOOP device to a Wi-Fi network or mobile hotspot.</li>
+<li>Sign in to your account.</li>
+<li>Go to My Account &gt; Manage &gt; My Subscription.</li>
+<li>Select the option to Reactivate or Resubscribe to your Unlimited Data Plan.</li>
+<li>A payment prompt will appear — process the upfront payment to complete the reactivation process.</li>
+</ol>
+</div>
+
+<p>Once the subscription has been successfully reactivated, service should resume on the customer's current device.</p>
+
+<div class="warning-box">
+<p>Please make sure there are 3 or fewer SIMs on the loop before trying to reinstate — the loop can have a max of around 4 e-SIMs.</p>
+</div>
+`
+},
+
+"Reactivation (Inactive Account) — e-SIM":{
+title:"Billing - Reactivation (Inactive Account) — No Payment Made Yet — e-SIM",
+source:"Slide 39",
+content:`
+<h3>Things we check</h3>
+<p><em>ask the customer, check in the station, etc.</em></p>
+
+<ul>
+<li>Customer's account is inactive due to non-payment</li>
+<li>Customer wants to reinstate account</li>
+</ul>
+
+<ul>
+<li>Make payment on the <strong>outstanding balance of the account</strong>.</li>
+<li>Place a new order using the <strong>same email address</strong>.</li>
+<li>Activate the new service, following the activation process.</li>
+<li>Once activated, the customer has two options:
+<ul>
+<li>Use the <strong>new service immediately</strong>, or</li>
+<li>Proceed with <strong>porting out and porting back in</strong> to retain the previous number.</li>
+</ul>
+</li>
+</ul>
+
+<div class="warning-box">
+<ul>
+<li>Inform the customer that once the <strong>PAC is provided and used</strong>, the porting-in process takes <strong>up to 48 hours</strong>.</li>
+<li><strong>During this time service may be interrupted.</strong></li>
+<li><strong>If all troubleshooting steps for porting are done but an error persists, inform TL and escalate the issue to proceed with Manual porting.</strong></li>
+</ul>
+</div>
+`
+},
+
+"Reactivation (Inactive Account)":{
+title:"Billing - Reactivation (Inactive Account) — No Payment Made Yet",
+source:"Slide 40",
+content:`
+<h3>Things we check</h3>
+<p><em>ask the customer, check in the station, etc.</em></p>
+
 
 <ul>
 <li>Customer's account is inactive due to non-payment</li>
@@ -850,7 +922,7 @@ content:`
 
 "Wall Garden":{
 title:"Billing - Wall Garden",
-source:"Slide 39",
+source:"Slide 41",
 content:`
 <h3>Things we check</h3>
 
@@ -874,7 +946,7 @@ content:`
 account:{
 "Password Reset":{
 title:"Account - Password Reset",
-source:"Slides 51–52",
+source:"Slides 53–54",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -923,7 +995,7 @@ content:`
 
 "Account Deletion":{
 title:"Account - Account Deletion",
-source:"Slide 53",
+source:"Slide 55",
 content:`
 <h3>Things we check</h3>
 
@@ -948,7 +1020,7 @@ content:`
 
 "Change Details":{
 title:"Account - Change Details",
-source:"Slide 54",
+source:"Slide 56",
 content:`
 <h3>Things we check</h3>
 
@@ -976,7 +1048,7 @@ content:`
 porting:{
 "Port-In":{
 title:"Porting - Port-In",
-source:"Slide 55",
+source:"Slide 57",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -1013,7 +1085,7 @@ content:`
 
 "Port-Out":{
 title:"Porting - Port-Out",
-source:"Slide 56",
+source:"Slide 58",
 content:`
 <h3>Things we check</h3>
 
@@ -1045,7 +1117,7 @@ content:`
 logistics:{
 "Where Is My Delivery":{
 title:"Logistics - Where Is My Delivery",
-source:"Slides 40–41",
+source:"Slides 42–43",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -1084,7 +1156,7 @@ content:`
 
 "Change of Address":{
 title:"Logistics - Change of Address",
-source:"Slides 42–43",
+source:"Slides 44–45",
 content:`
 <h3>Things we check</h3>
 
@@ -1118,7 +1190,7 @@ content:`
 
 "Failed Delivery":{
 title:"Logistics - Failed Delivery",
-source:"Slide 44",
+source:"Slide 46",
 content:`
 <h3>Things we check</h3>
 
@@ -1141,7 +1213,7 @@ content:`
 
 "Returns":{
 title:"Logistics - Returns",
-source:"Slide 45",
+source:"Slide 47",
 content:`
 <h3>Things we check</h3>
 
@@ -1160,7 +1232,7 @@ content:`
 
 "Replacements":{
 title:"Logistics - Replacements",
-source:"Slide 46",
+source:"Slide 48",
 content:`
 <h3>Things we check</h3>
 
@@ -1183,7 +1255,7 @@ content:`
 
 "Fast Delivery Request":{
 title:"Logistics - Fast Delivery Request",
-source:"Slide 47",
+source:"Slide 49",
 content:`
 <h3>Things we check</h3>
 
@@ -1205,7 +1277,7 @@ content:`
 device:{
 "Not Charging":{
 title:"Device - Not Charging",
-source:"Slide 57",
+source:"Slide 59",
 content:`
 <h3>Issue: Not Charging</h3>
 
@@ -1229,7 +1301,7 @@ content:`
 
 "Fast Battery Drain":{
 title:"Device - Fast Battery Drain",
-source:"Slide 57",
+source:"Slide 59",
 content:`
 <h3>Issue: Fast Battery Drain</h3>
 
@@ -1254,7 +1326,7 @@ content:`
 
 "No Sound / Crashing / Constant Reboot":{
 title:"Device - No Sound / Crashing / Constant Reboot",
-source:"Slides 58–59",
+source:"Slides 60–61",
 content:`
 <h3>Issue: No Sound / Crashing / Constant Reboot</h3>
 
@@ -1303,7 +1375,7 @@ content:`
 
 "Application Issue":{
 title:"Device - Application Issue",
-source:"Slide 60",
+source:"Slide 62",
 content:`
 <h3>Issue: Application Issue</h3>
 
@@ -1325,7 +1397,7 @@ content:`
 
 "Constantly Rebooting / Black Screen":{
 title:"Device - Constantly Rebooting / Black Screen",
-source:"Slide 61",
+source:"Slide 63",
 content:`
 <h3>Issue: Constantly Rebooting or Black Screen</h3>
 
@@ -1350,7 +1422,7 @@ content:`
 cancel:{
 "Cancellation Reasons":{
 title:"Cancel - Cancellation Reasons",
-source:"Slides 48–50",
+source:"Slides 50–52",
 content:`
 <h3>Affordability / Better Deal / Change of Heart</h3>
 <ul>
@@ -1383,7 +1455,7 @@ content:`
 
 "No Reason Stated":{
 title:"Cancel - No Reason Stated",
-source:"Slide 50",
+source:"Slide 52",
 content:`
 <ul>
 <li>Call the customer and ask for cancellation reason</li>
@@ -1395,7 +1467,7 @@ content:`
 misc:{
 "No Issue Stated":{
 title:"No Issue - No Issue Stated on Ticket",
-source:"Slide 62",
+source:"Slide 64",
 content:`
 <ul>
 <li>Customer requests email communication only</li>
@@ -1408,7 +1480,7 @@ content:`
 
 "DNC (Do Not Call)":{
 title:"DNC - Do Not Call",
-source:"Slide 63",
+source:"Slide 65",
 content:`
 <h3>UK Customers</h3>
 <ul>
@@ -1447,7 +1519,7 @@ content:`
 
 "Vulnerable Customers (LACE Framework)":{
 title:"Vulnerable Customers - LACE Framework",
-source:"Slide 64",
+source:"Slide 66",
 content:`
 <p>This serves as a guide on how to handle vulnerable customers (e.g., mental health concerns, health issues, or inability to pay). If the customer is not eligible for a Promise to Pay arrangement, follow this process:</p>
 
@@ -1474,7 +1546,7 @@ content:`
 
 "Banned Customers":{
 title:"Banned Customers - Verbatim",
-source:"Slide 65",
+source:"Slide 67",
 content:`
 <p>Listen carefully to the customer's concern without interruption. Allow them to fully explain their situation.</p>
 
