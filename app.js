@@ -110,6 +110,10 @@ content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
 
+<div class="warning-box">
+<p>Ensure that the customer has the ability to login to their LoopDL account. If not, then go to Account - Password Reset.</p>
+</div>
+
 <h4>Loop</h4>
 <ol>
 <li>Set up your loop by completing the Android setup process on the device.</li>
@@ -273,7 +277,7 @@ content:`
 
 "Transfer e-SIM / e-SIM not working":{
 title:"Network - Transfer e-SIM / e-SIM not working",
-source:"Slides 13–14",
+source:"Slides 13–15",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -315,15 +319,38 @@ content:`
 <div class="warning-box">
 <ul>
 <li>If it did not work: Uninstall e-SIM / LoopDL app then reinstall.</li>
-<li>If issue persists, do not SIM swap → Escalate.</li>
+<li>If issue persists, ask permission from TL for SIM Swap.</li>
 </ul>
 </div>
+
+<h3>Troubleshooting (e-SIM Transfer when customer does not have access to old phone)</h3>
+
+<ul>
+<li>Offer sim swap - for TL approval
+<ul>
+<li>if not accepted by cx and wanted to have old phone number
+<ul>
+<li>escalate so we may know if backend may release the old number via e-SIM GO
+<ul>
+<li>If e-SIM GO released the number, the customer just needs to activate the e-sim.</li>
+<li>if e-SIM GO cannot release the number, offer to have them purchase new e-sim so we may assist the cx to port out the old number and port it into the new e-sim
+<ul>
+<li>Advice porting disclosures.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 `
 },
 
 "Adult Content":{
 title:"Network - Adult Content",
-source:"Slides 15–16",
+source:"Slides 16–17",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -364,7 +391,7 @@ content:`
 
 "How to reset network settings on an iPhone":{
 title:"Network - How to reset network settings on an iPhone",
-source:"Slide 17",
+source:"Slide 18",
 content:`
 <h3>Steps</h3>
 
@@ -379,7 +406,7 @@ content:`
 },
 "Steps to Manually Connect Vodafone UK e-SIM":{
 title:"Network - Steps to Manually Connect Vodafone UK e-SIM",
-source:"Slide 18",
+source:"Slide 19",
 content:`
 <h3>Things we check</h3>
 <ul>
@@ -394,7 +421,7 @@ content:`
 
 "Use a 3rd Party SIM on Loop":{
 title:"Network - Use a 3rd Party SIM on Loop",
-source:"Slide 19",
+source:"Slide 20",
 content:`
 <h3>Process to Follow (Customer Side)</h3>
 <ol>
@@ -423,7 +450,7 @@ content:`
 
 "Loop Device Was Bought From a User / 2nd Hand Loop Device":{
 title:"Network - Loop Device Was Bought From a User / 2nd Hand Loop Device",
-source:"Slide 20",
+source:"Slide 21",
 content:`
 <h3>Process to Follow (Agent)</h3>
 
@@ -442,7 +469,7 @@ content:`
 
 "SIM Card Expired":{
 title:"Network - SIM Card Expired",
-source:"Slides 21–22",
+source:"Slides 22–23",
 content:`
 <h3>Initial Checks</h3>
 <ul>
@@ -470,7 +497,7 @@ content:`
 
 "Using LSA String (manual)":{
 title:"Network - Using LSA String (manual)",
-source:"Slide 23",
+source:"Slide 24",
 content:`
 <h3>Steps</h3>
 
@@ -499,7 +526,7 @@ content:`
 
 "Delete e-SIM (Android, Samsung)":{
 title:"Network - Delete e-SIM (Android, Samsung)",
-source:"Slide 24",
+source:"Slide 25",
 content:`
 <h3>Steps</h3>
 
@@ -516,7 +543,7 @@ content:`
 
 "Device Is Not e-SIM Compatible (iOS)":{
 title:"Network - Device Is Not e-SIM Compatible (iOS)",
-source:"Slide 25",
+source:"Slide 26",
 content:`
 <h3>Things we check</h3>
 <ul>
@@ -550,7 +577,7 @@ content:`
 
 "Onboarding Process":{
 title:"Network - Onboarding Process",
-source:"Slide 26",
+source:"Slide 27",
 content:`
 <h3>Steps</h3>
 
@@ -568,7 +595,7 @@ content:`
 billing:{
 "Make Payment":{
 title:"Billing - Make Payment",
-source:"Slide 27",
+source:"Slide 28",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -588,7 +615,7 @@ content:`
 
 "Customer can't pay":{
 title:"Billing - Customer can't pay",
-source:"Slide 28",
+source:"Slide 29",
 content:`
 <h3>Things we check</h3>
 
@@ -614,6 +641,8 @@ content:`
 <div class="warning-box">
 <ul>
 <li>Note: there are no set parameters for when a PTP is present on the account — check on a case-by-case basis.</li>
+<li>Check the account first before disclosing about the PTP feature.</li>
+<li>Always disclose SSO (Self Service Options) on the website if PTP is available for the customer.</li>
 </ul>
 </div>
 `
@@ -621,7 +650,7 @@ content:`
 
 "Amount Check":{
 title:"Billing - Amount Check",
-source:"Slides 29–30",
+source:"Slides 30–31",
 content:`
 <h3>Things we check</h3>
 
@@ -641,7 +670,7 @@ content:`
 
 "Update Card Details":{
 title:"Billing - Update Card Details",
-source:"Slide 31",
+source:"Slide 32",
 content:`
 <h3>What to do next</h3>
 
@@ -664,7 +693,7 @@ content:`
 
 "Refund":{
 title:"Billing - Refund",
-source:"Slide 32",
+source:"Slide 33",
 content:`
 <h3>Things we check</h3>
 
@@ -696,7 +725,7 @@ content:`
 
 "Credit / Compensation":{
 title:"Billing - Credit / Compensation",
-source:"Slide 33",
+source:"Slide 34",
 content:`
 <h3>What to do next</h3>
 
@@ -715,7 +744,7 @@ content:`
 },
 "Invoice":{
 title:"Billing - Invoice",
-source:"Slide 34",
+source:"Slide 35",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -746,7 +775,7 @@ content:`
 
 "Bill Dispute":{
 title:"Billing - Bill Dispute",
-source:"Slide 35",
+source:"Slide 36",
 content:`
 <h3>Things we check</h3>
 
@@ -770,7 +799,7 @@ content:`
 
 "Proof of Payment":{
 title:"Billing - Proof of Payment",
-source:"Slide 36",
+source:"Slide 37",
 content:`
 <h3>Things we check</h3>
 
@@ -794,7 +823,7 @@ content:`
 
 "Reactivation (With Free Service)":{
 title:"Billing - Reactivation (With Free Service)",
-source:"Slide 37",
+source:"Slide 38",
 content:`
 <h3>Things we check</h3>
 
@@ -818,7 +847,7 @@ content:`
 
 "Reactivation (Inactive Account) — Loop Device":{
 title:"Billing - Reactivation (Inactive Account) — No Payment Made Yet — Loop Device",
-source:"Slide 38",
+source:"Slide 39",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -855,7 +884,7 @@ content:`
 
 "Reactivation (Inactive Account) — e-SIM":{
 title:"Billing - Reactivation (Inactive Account) — No Payment Made Yet — e-SIM",
-source:"Slide 39",
+source:"Slide 40",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -889,7 +918,7 @@ content:`
 
 "Reactivation (Inactive Account)":{
 title:"Billing - Reactivation (Inactive Account) — No Payment Made Yet",
-source:"Slide 40",
+source:"Slide 41",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -924,7 +953,7 @@ content:`
 
 "Wall Garden":{
 title:"Billing - Wall Garden",
-source:"Slide 41",
+source:"Slide 42",
 content:`
 <h3>Things we check</h3>
 
@@ -948,7 +977,7 @@ content:`
 account:{
 "Password Reset":{
 title:"Account - Password Reset",
-source:"Slides 53–54",
+source:"Slides 54–55",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -997,7 +1026,7 @@ content:`
 
 "Account Deletion":{
 title:"Account - Account Deletion",
-source:"Slide 55",
+source:"Slide 56",
 content:`
 <h3>Things we check</h3>
 
@@ -1022,7 +1051,7 @@ content:`
 
 "Change Details":{
 title:"Account - Change Details",
-source:"Slide 56",
+source:"Slide 57",
 content:`
 <h3>Things we check</h3>
 
@@ -1050,7 +1079,7 @@ content:`
 porting:{
 "Port-In":{
 title:"Porting - Port-In",
-source:"Slide 57",
+source:"Slide 58",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -1087,7 +1116,7 @@ content:`
 
 "Port-Out":{
 title:"Porting - Port-Out",
-source:"Slide 58",
+source:"Slide 59",
 content:`
 <h3>Things we check</h3>
 
@@ -1119,7 +1148,7 @@ content:`
 logistics:{
 "Where Is My Delivery":{
 title:"Logistics - Where Is My Delivery",
-source:"Slides 42–43",
+source:"Slides 43–44",
 content:`
 <h3>Things we check</h3>
 <p><em>ask the customer, check in the station, etc.</em></p>
@@ -1158,7 +1187,7 @@ content:`
 
 "Change of Address":{
 title:"Logistics - Change of Address",
-source:"Slides 44–45",
+source:"Slides 45–46",
 content:`
 <h3>Things we check</h3>
 
@@ -1192,7 +1221,7 @@ content:`
 
 "Failed Delivery":{
 title:"Logistics - Failed Delivery",
-source:"Slide 46",
+source:"Slide 47",
 content:`
 <h3>Things we check</h3>
 
@@ -1215,7 +1244,7 @@ content:`
 
 "Returns":{
 title:"Logistics - Returns",
-source:"Slide 47",
+source:"Slide 48",
 content:`
 <h3>Things we check</h3>
 
@@ -1234,7 +1263,7 @@ content:`
 
 "Replacements":{
 title:"Logistics - Replacements",
-source:"Slide 48",
+source:"Slide 49",
 content:`
 <h3>Things we check</h3>
 
@@ -1257,7 +1286,7 @@ content:`
 
 "Fast Delivery Request":{
 title:"Logistics - Fast Delivery Request",
-source:"Slide 49",
+source:"Slide 50",
 content:`
 <h3>Things we check</h3>
 
@@ -1279,7 +1308,7 @@ content:`
 device:{
 "Not Charging":{
 title:"Device - Not Charging",
-source:"Slide 59",
+source:"Slide 60",
 content:`
 <h3>Issue: Not Charging</h3>
 
@@ -1303,7 +1332,7 @@ content:`
 
 "Fast Battery Drain":{
 title:"Device - Fast Battery Drain",
-source:"Slide 59",
+source:"Slide 60",
 content:`
 <h3>Issue: Fast Battery Drain</h3>
 
@@ -1328,10 +1357,8 @@ content:`
 
 "No Sound / Crashing / Constant Reboot":{
 title:"Device - No Sound / Crashing / Constant Reboot",
-source:"Slides 59–61",
+source:"Slides 60–62",
 content:`
-<h3>Issue: No Sound / Crashing / Constant Reboot</h3>
-
 <div class="warning-box">
 <ul>
 <li>Factory reset erases all stored data and settings.</li>
@@ -1339,6 +1366,8 @@ content:`
 <li>If device arrived faulty, proceed to Logistics → Replacements.</li>
 </ul>
 </div>
+
+<h3>Issue: No Sound / Crashing / Constant Reboot</h3>
 
 <h4>Ask checklist / Troubleshooting</h4>
 <ul>
@@ -1386,7 +1415,7 @@ content:`
 
 "Application Issue":{
 title:"Device - Application Issue",
-source:"Slide 62",
+source:"Slide 63",
 content:`
 <h3>Issue: Application Issue</h3>
 
@@ -1408,7 +1437,7 @@ content:`
 
 "Constantly Rebooting / Black Screen":{
 title:"Device - Constantly Rebooting / Black Screen",
-source:"Slide 63",
+source:"Slide 64",
 content:`
 <h3>Issue: Constantly Rebooting or Black Screen</h3>
 
@@ -1433,7 +1462,7 @@ content:`
 cancel:{
 "Cancellation Reasons":{
 title:"Cancel - Cancellation Reasons",
-source:"Slides 50–52",
+source:"Slides 51–53",
 content:`
 <h3>Affordability / Better Deal / Change of Heart</h3>
 <ul>
@@ -1466,7 +1495,7 @@ content:`
 
 "No Reason Stated":{
 title:"Cancel - No Reason Stated",
-source:"Slide 52",
+source:"Slide 53",
 content:`
 <ul>
 <li>Call the customer and ask for cancellation reason</li>
@@ -1478,7 +1507,7 @@ content:`
 misc:{
 "No Issue Stated":{
 title:"No Issue - No Issue Stated on Ticket",
-source:"Slide 64",
+source:"Slide 65",
 content:`
 <ul>
 <li>Customer requests email communication only</li>
@@ -1491,7 +1520,7 @@ content:`
 
 "DNC (Do Not Call)":{
 title:"DNC - Do Not Call",
-source:"Slide 65",
+source:"Slide 66",
 content:`
 <h3>UK Customers</h3>
 <ul>
@@ -1515,7 +1544,7 @@ content:`
 
 "Onboarding Process":{
 title:"Onboarding Process",
-source:"Slide 26",
+source:"Slide 27",
 content:`
 <ol>
 <li>Run speed test and optimization in theStation</li>
@@ -1530,7 +1559,7 @@ content:`
 
 "Vulnerable Customers (LACE Framework)":{
 title:"Vulnerable Customers - LACE Framework",
-source:"Slide 66",
+source:"Slide 67",
 content:`
 <p>This serves as a guide on how to handle vulnerable customers (e.g., mental health concerns, health issues, or inability to pay). If the customer is not eligible for a Promise to Pay arrangement, follow this process:</p>
 
@@ -1557,7 +1586,7 @@ content:`
 
 "Banned Customers":{
 title:"Banned Customers - Verbatim",
-source:"Slide 67",
+source:"Slide 68",
 content:`
 <p>Listen carefully to the customer's concern without interruption. Allow them to fully explain their situation.</p>
 
