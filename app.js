@@ -111,7 +111,11 @@ content:`
 <p><em>ask the customer, check in the station, etc.</em></p>
 
 <div class="warning-box">
-<p>Ensure that the customer has the ability to login to their LoopDL account. If not, then go to Account - Password Reset.</p>
+<ul>
+<li>Ensure that the customer has the ability to login to their LoopDL account. If not, then go to Account - Password Reset.</li>
+<li>If the customer is not in the UK tell them the service is only within UK.</li>
+<li>Otherwise, proceed with troubleshooting.</li>
+</ul>
 </div>
 
 <h4>Loop</h4>
